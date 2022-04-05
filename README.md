@@ -16,7 +16,7 @@ using UnityEngine.UI;
 
 public class Example : MonoBehaviour
 {
-    public Text _text;
+    public Text textComponent;
     
     private void Start()
     {
@@ -30,7 +30,7 @@ public class Example : MonoBehaviour
 
     private void OnTextInput(char c)
     {
-        _text.text += c;
+        textComponent.text += c;
     }
 }
 ```
